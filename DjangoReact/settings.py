@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 'home',
+'crud',
 'django.contrib.admin',
 'django.contrib.auth',
 'django.contrib.contenttypes',
@@ -58,6 +59,7 @@ TEMPLATES = [
 'DIRS': [
 os.path.join(BASE_DIR,'templates'),
 os.path.join(BASE_DIR,'home','templates'),
+os.path.join(BASE_DIR,'crud','templates'),
 ],
 'APP_DIRS': True,
 'OPTIONS': {
